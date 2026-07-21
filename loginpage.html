@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loginpage.html</title>
+<title>Loginpage</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        .middle h1{
+            justify-content: center;
+            margin: 50px;
+        }
+        .input-box1{
+            gap: 3rem;
+        }
+        .image{
+            opacity: 1;
+            transition: .5 ease;
+            backface-visibility: hidden;
+        }
+        .middle {
+  text-align: center; 
+            position: absolute;  
+            display: flex;
+            align-items: center;
+            min-height: 60vh;
+            background: rgba(255, 255, 255, 0.5);
+            border: 8px solid rgba(255, 255, 255, 0.5);
+        }
+  </style>    
+    <img src="gtaloginpagebgimg.jpg" alt="logo" class="image">
+        <div class="middle">
+            <h1 style="font-family: Poppins; font-weight: 20000;position: absolute; color: white; display: flex; font-size: xx-large; min-height: 80vh; margin: 0;">Login</h1>
+        <form action="">
+            <div class="input-box1">
+                <input style="font-family: poppins; font-weight: bolder;
+                font-size: xx-large;" type="text" placeholder="Username" required>
+            </div>
+            <div class="input-box2">
+                <input style="font-family: poppins; font-weight: bolder;
+                font-size: xx-large;" type="password" placeholder="Password" required>
+            </div>
+            <div class="remember-forgot">
+                <label style="font-family: poppins; font-weight: bolder;
+                font-size: medium; color: white;"><input type="checkbox">RememberMe</label>
+            <button style="background-color: black; color: grey; font-family: Poppins;">Login</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
